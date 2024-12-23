@@ -1,0 +1,126 @@
+   
+   
+   * {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    }
+    
+    h1 {
+    display: flex;
+    color:rgb(70, 70, 90);
+    justify-content: center;       
+    }
+
+    h2 {
+      display: flex;
+      color: #333;
+      justify-content: center; 
+      font-size: 30px;      
+      }
+  
+     
+  body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .navbar {
+    background-color: #333;
+    padding: 15px 20px;
+  }
+  
+  
+  .nav-links {
+    display: flex;         
+    justify-content: space-around; 
+  
+  }
+  
+  
+  .nav-links li {
+    display: inline;    
+  }
+
+  .contact-links li {
+    justify-content: space-around;
+    margin: 5% ;
+    padding: auto;
+    display: flex;
+    display: inline;
+    text-decoration: none ;
+    
+  }
+
+  .contact-links li a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+
+  .contact-links li a:hover {
+    color: #00bcd4;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #00bcd4;
+  }
+  
+  .content {
+    background-color: #333 ; 
+    padding: 50px; 
+    margin: 20px auto;                
+    max-width: 800px;        
+    border-radius: 10px;      
+  }
+  
+
+
+  .articles{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .contact-text {
+    color: white;
+
+  }
+
+
+  .article {
+    color: #333 ;
+    font-size: 22px;   
+  }
+
+  .image1 {
+    border-radius: 5%;
+    
+  }
+
+ .image2 {
+  border-radius: 100%;
+  width: 250px;
+  height: 250px;
+  border: 2px  solid #00bcd4;
+ }
+
+.image3 {
+
+  display: flex;
+  margin: auto;
+  padding: auto; 
+  border-radius: 2%;
+  width: 700px;
+ 
+}
+
+p {
+  display: inline;
+}
